@@ -1,4 +1,4 @@
-package com.coursology.coursology;
+package com.coursology.coursology.Entity;
 
 import jakarta.persistence.*;
 

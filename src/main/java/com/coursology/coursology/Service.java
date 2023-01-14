@@ -1,5 +1,7 @@
 package com.coursology.coursology;
 
+import com.coursology.coursology.Entity.Course;
+import com.coursology.coursology.Repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

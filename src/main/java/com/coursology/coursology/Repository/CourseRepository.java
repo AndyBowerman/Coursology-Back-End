@@ -1,5 +1,6 @@
-package com.coursology.coursology;
+package com.coursology.coursology.Repository;
 
+import com.coursology.coursology.Entity.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
