@@ -9,5 +9,7 @@ import java.util.List;
 @Repository
 public interface CourseRepository extends JpaRepository<Course, Integer> {
 
-    List<Course> getCourseByName(String courseName);
+    Course getCourseByName(String name);
+
+    Course getCourseById(int id);
 }
